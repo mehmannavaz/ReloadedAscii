@@ -60,4 +60,18 @@ we need to make the normal version big as turned version like this:
 |          |      \\_\/\_\/ \  / 
 |__________|       \_________\/  
 ```
-so much better
+so much better but let's improve it more
+
+## improved eyes
+cube-in-cube will break the simple rule! so let's make them easy to get and easy to draw...in other hand simple is better 
+```
+                   __________    
+                  /         /\   
+ __________      /         /  \  
+|  __  __  |    /_________/    \ 
+| |  ||  | |    \  __  __ \     \
+| |__||__| |     \ \ \ \ \ \    /
+|          |      \ \_\ \_\ \  / 
+|__________|       \_________\/  
+```
+so we got the "Outside of box we should make box, inside of the box be free to just show how it looks"
