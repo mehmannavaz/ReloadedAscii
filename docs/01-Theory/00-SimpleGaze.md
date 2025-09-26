@@ -39,8 +39,8 @@ to the left
 bad news! there no thick one for `▔` 'n `▁` and there is no bold version for `╱` 'n `╲` so we are in the dead end? no nggyu.
 ```
 to the left(Unicodes+Ascii)
- _
-╱_╱╲
-╲_╲╱
+ ⸏
+╱⸏╱╲
+╲⸏╲╱
 ```
-it's kinda better but not fixed yet
+I've found `⸏`, it's kinda better but not fixed yet
