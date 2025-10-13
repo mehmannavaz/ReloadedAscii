@@ -36,15 +36,10 @@ class ascii:
         self.turned_length = self.length + 1 
         self.turned_width = self.width + 5
 
-
-def calculateTurnedWidth:
-
-
-def _in_box:
-    """
-    check if it's inside a box or not
-    """
-    pass
+    def _is_in_box(self):
+        """
+        if up/down/left/right block with | or _ it's in the box and return `True` other wise `False`
+        """
 
 for line in Example1:
     

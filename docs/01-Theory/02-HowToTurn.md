@@ -33,3 +33,38 @@ one line will add to the head it's stable for other example for example:
 
 # inside of bod is diffrent of outside:
 TODO
+
+# continue
+```
+            _   _
+ _  _      /_/\/_/\
+|_||_|     \_\/\_\/
+```
+it's false!!!
+```
+            _  _
+ _  _      /_//_/\
+|_||_|     \_\\_\/
+```
+it's True!!!
+-------------
+```
+             _   _
+ _   _      /_/\/_/\
+|_| |_|     \_\/\_\/
+   ^^          ^^
+   space!      SPACE!
+```
+
+# not only cubes!
+```square
+          _
+ _       / /\
+| |      \ \ \
+|_|       \_\/
+```
+```square
+          ______
+ ___     /_____/\
+|___|    \_____\/
+```
