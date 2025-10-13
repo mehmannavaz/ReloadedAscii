@@ -32,6 +32,7 @@ class ascii:
 
         # Turned
         # https://github.com/mehmannavaz/ReloadedAscii/blob/main/docs/01-Theory/02-HowToTurn
+        self.turned_art = ""
         self.turned_length = self.length + 1 
         self.turned_width = self.width + 5
 
