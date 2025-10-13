@@ -34,7 +34,7 @@ class ascii:
         # https://github.com/mehmannavaz/ReloadedAscii/blob/main/docs/01-Theory/02-HowToTurn
         self.turned_art = ""
         self.turned_length = self.length + 1 
-        self.turned_width = self.width + 5
+        self.turned_width = self.length + self.width - 1
 
     def _is_in_box(self):
         """

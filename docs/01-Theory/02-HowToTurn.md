@@ -41,8 +41,28 @@ one line will add to the head it's stable for other example for example:
 ```
 simple yeah?! just add a line to the top
 
+### here the formole:
+`turned_length = lenght+1`
+
 # How to calculate width?
 it's depends on count of lines for e.x.:
+```
+          > __
+ 2> _    3>/_/\
+  >|_|    >\_\/
+   ^^^     ^^^^
+    3        4
+```
+
+```
+          > _
+  > _     >/_/\
+ 4>| |   5>\ \ \
+  >| |    > \ \ \
+  >|_|    >  \_\/
+   ^^^     ^^^^^^
+    3         6
+```
 ```
           > _
   > _     >/_/\
@@ -63,7 +83,9 @@ it's depends on count of lines for e.x.:
    ^^^     ^^^^^^^^^^^^^^^^^
     3             17
 ```
-here the formole:
+
+### here the formole:
+`turned_wigth = lenght+widght-1`
 
 
 
