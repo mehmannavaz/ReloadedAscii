@@ -40,6 +40,3 @@ class ascii:
         """
         if up/down/left/right block with | or _ it's in the box and return `True` other wise `False`
         """
-
-for line in Example1:
-    

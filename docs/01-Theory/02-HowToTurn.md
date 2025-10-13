@@ -11,7 +11,7 @@ like:
 |__________|       \_________\/  
 ```
 
-# Tured version is 1line up and more right
+# How to count length?
 one line will add to the head it's stable for other example for example:
 ```Invader
   >>> ____ <<<<<<<<<<NEW LINE
@@ -26,10 +26,46 @@ one line will add to the head it's stable for other example for example:
       \_\/       \_\/                  |_|      |_|
 ```
 ```
+     NEW LINE>>>> __________  <<<
+ __________      /         /\  
+|  __  __  |    /_________/  \ 
+| |  ||  | |    \  __  __ \   \
+| |__||__| |     \ \ \ \ \ \   \
+|          |      \ \_\ \_\ \  / 
+|__________|       \_________\/  
+```
+```
    >> __ <<<<<NEW LINE
  _   /_/\
 |_|  \_\/
 ```
+simple yeah?! just add a line to the top
+
+# How to calculate width?
+it's depends on count of lines for e.x.:
+```
+          > _
+  > _     >/_/\
+  >| |    >\ \ \
+  >| |    > \ \ \
+  >| |    >  \ \ \
+  >| |    >   \ \ \
+  >| |    >    \ \ \
+  >| |    >     \ \ \
+15>| |  16>      \ \ \
+  >| |    >       \ \ \
+  >| |    >        \ \ \
+  >| |    >         \ \ \
+  >| |    >          \ \ \
+  >| |    >           \ \ \
+  >| |    >            \ \ \
+  >|_|    >             \_\/
+   ^^^     ^^^^^^^^^^^^^^^^^
+    3             17
+```
+here the formole:
+
+
 
 # inside of bod is diffrent of outside:
 TODO
@@ -68,3 +104,5 @@ it's True!!!
  ___     /_____/\
 |___|    \_____\/
 ```
+
+
