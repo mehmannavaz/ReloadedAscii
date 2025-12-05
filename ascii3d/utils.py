@@ -1,10 +1,14 @@
 import os
 
-def getSize():
+def getSize() -> tuple[int, int]:
+    """Get width and lenth of terminal emulator.
+
+    Returns:
+        A tuple containing (columns, rows) of the terminal
+
+    Examples:
+        >>> getSize()
+        (177, 45)
     """
-    get `width` and `lenth` of terminal emulator.
-    
-    return: [177, 45]
-    """
-    width, lenth = os.get_terminal_size() # os.terminal_size(columns=177, lines=45)
-    return [width, lenth]
+    size = os.get_terminal_size()
+    return (size.columns, size.lines)
