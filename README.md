@@ -1,8 +1,29 @@
-# ReloadedAscii
-An engine to make ASCII looks like it's 3D!
+# ASCII3D
+An engine to make ASCII looks like 3D!
+
+## Installation:
+### PyPi(TODO):
+```shell
+pip install ascii3d
+```
+
+### Manual:
+TODO
 
 ## Usage:
-TODO
+### Module
+```shell
+python -m ascii3d --help
+# OR
+ascii3d --help
+```
+### Library
+```python
+from ascii3d import *
+
+pass
+```
+
 
 ## Origin of the idea
 This project starts when I saw this [Invader ASCII art](https://www.asciiart.eu/video-games/other):

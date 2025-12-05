@@ -24,19 +24,4 @@ Example3 = """
     |_|      |_|
 """
 
-class ascii:
-    def __init__(self, art):
-        self.art = art
-        self.length = art.count('\n')
-        self.width = max([len(line) for line in art.split('\n')])
 
-        # Turned
-        # https://github.com/mehmannavaz/ReloadedAscii/blob/main/docs/01-Theory/02-HowToTurn
-        self.turned_art = ""
-        self.turned_length = self.length + 1 
-        self.turned_width = self.length + self.width - 1
-
-    def _is_in_box(self):
-        """
-        if up/down/left/right block with | or _ it's in the box and return `True` other wise `False`
-        """
